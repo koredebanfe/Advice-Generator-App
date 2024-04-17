@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(218, 23%, 16%);   
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#container {
+    width: 70vw;
+    margin: auto;
+    align-content: center;
+    background-color: hsl(217, 19%, 24%);
+    color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.advice--content {
+    text-align: center;
+    line-height: 2rem;
+}
+
+#advice--id {
+    margin-bottom: 1rem;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+}
+
+#advice {
+    background-color: hsl(150, 100%, 66%);
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+picture {
+    display: block;
+    margin-top: 2rem;
+}
+
+#advice:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+#advice img {
+    text-align: center;
+    display: flex;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+
+
+  @media screen and (min-width: 650px){
+    #container {
+        width: 50vw;
+    }
+  }
